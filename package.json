@@ -1,0 +1,26 @@
+{
+  "name": "metro-cli",
+  "version": "0.0.1",
+  "description": "the metro and so on",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wmata",
+    "metro",
+    "dc"
+  ],
+  "bin": {
+    "metro": "index.js"
+  },
+  "author": "Tom MacWright <tom@macwright.org>",
+  "license": "BSD",
+  "dependencies": {
+    "request": "~2.21.0",
+    "wmata-client": "0.0.1",
+    "corelocation": "0.0.0",
+    "colors": "~0.6.0-1",
+    "leftpad": "0.0.0"
+  }
+}
