@@ -9,5 +9,5 @@ Works on Macs because it uses [node-corelocation](https://github.com/tmcw/node-c
 
 ```
 npm install -g metro-cli
-metro-cli
+metro
 ```
